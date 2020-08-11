@@ -9,6 +9,9 @@ public class PropertyValue {
 
     private String name;
 
+    /**
+     * 可能是一个具体的值，也可能是ref，引用的一个对象属性
+     */
     private Object value;
 
     public PropertyValue(String name, Object value) {

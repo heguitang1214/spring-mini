@@ -5,7 +5,7 @@ import java.util.List;
 
 
 /**
- * <bean></bean>标签定义，存储的是标签的信息
+ * <bean></bean>标签定义，存储的是标签的信息（也是一个bean实例信息）
  *
  * @author heguitang
  */
@@ -26,11 +26,16 @@ public class BeanDefinition {
      */
     private String clazzName;
 
-    // bean标签的class属性对应的Class对象
+    /**
+     * bean标签的class属性对应的Class对象，也就是类的全路径
+     */
     private Class<?> clazzType;
 
-    // bean标签的id属性和name属性都会存储到该属性值，id和name属性是二选一使用的
+    /**
+     * bean标签的id属性和name属性都会存储到该属性值，id和name属性是二选一使用的
+     */
     private String beanName;
+
 
     private String initMethod;
 
