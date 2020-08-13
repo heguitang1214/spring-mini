@@ -1,13 +1,12 @@
 package com.tang.spring.use.test;
 
 
-import com.tang.spring.frame.ioc.BeanDefinition;
-import com.tang.spring.frame.ioc.PropertyValue;
-import com.tang.spring.frame.ioc.RuntimeBeanReference;
-import com.tang.spring.frame.ioc.TypedStringValue;
+import com.tang.spring.frame.config.BeanDefinition;
+import com.tang.spring.frame.config.PropertyValue;
+import com.tang.spring.frame.config.RuntimeBeanReference;
+import com.tang.spring.frame.config.TypedStringValue;
 import com.tang.spring.use.po.User;
 import com.tang.spring.use.service.UserService;
-import com.tang.spring.use.service.UserServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.tang.spring.frame.ioc;
+package com.tang.spring.frame.config;
 
 /**
  * PropertyValue 中封装着一个<property></property>标签的信息

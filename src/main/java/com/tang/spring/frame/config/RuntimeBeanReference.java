@@ -1,4 +1,4 @@
-package com.tang.spring.frame.ioc;
+package com.tang.spring.frame.config;
 
 /**
  * 封装<bean></bean>标签中子标签<property></property>的ref属性值

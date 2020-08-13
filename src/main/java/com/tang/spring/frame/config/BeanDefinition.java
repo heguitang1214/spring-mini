@@ -1,4 +1,4 @@
-package com.tang.spring.frame.ioc;
+package com.tang.spring.frame.config;
 
 import java.util.ArrayList;
 import java.util.List;
