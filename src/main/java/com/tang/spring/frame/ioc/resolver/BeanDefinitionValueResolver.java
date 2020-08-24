@@ -1,9 +1,9 @@
-package com.tang.spring.frame.resolver;
+package com.tang.spring.frame.ioc.resolver;
 
 
-import com.tang.spring.frame.config.RuntimeBeanReference;
-import com.tang.spring.frame.config.TypedStringValue;
-import com.tang.spring.frame.factory.BeanFactory;
+import com.tang.spring.frame.ioc.config.RuntimeBeanReference;
+import com.tang.spring.frame.ioc.config.TypedStringValue;
+import com.tang.spring.frame.ioc.factory.BeanFactory;
 
 /**
  * 专门负责BeanDefinition中存储的value的转换

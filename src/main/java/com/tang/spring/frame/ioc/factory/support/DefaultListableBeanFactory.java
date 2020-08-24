@@ -1,8 +1,8 @@
-package com.tang.spring.frame.factory.support;
+package com.tang.spring.frame.ioc.factory.support;
 
 
-import com.tang.spring.frame.config.BeanDefinition;
-import com.tang.spring.frame.registry.BeanDefinitionRegistry;
+import com.tang.spring.frame.ioc.config.BeanDefinition;
+import com.tang.spring.frame.ioc.registry.BeanDefinitionRegistry;
 
 import java.util.HashMap;
 import java.util.Map;

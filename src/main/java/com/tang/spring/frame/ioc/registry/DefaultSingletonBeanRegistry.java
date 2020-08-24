@@ -1,4 +1,4 @@
-package com.tang.spring.frame.registry;
+package com.tang.spring.frame.ioc.registry;
 
 import java.util.HashMap;
 import java.util.Map;

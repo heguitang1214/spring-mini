@@ -1,9 +1,9 @@
-package com.tang.spring.frame.factory.support;
+package com.tang.spring.frame.ioc.factory.support;
 
 
-import com.tang.spring.frame.config.BeanDefinition;
-import com.tang.spring.frame.factory.BeanFactory;
-import com.tang.spring.frame.registry.DefaultSingletonBeanRegistry;
+import com.tang.spring.frame.ioc.config.BeanDefinition;
+import com.tang.spring.frame.ioc.factory.BeanFactory;
+import com.tang.spring.frame.ioc.registry.DefaultSingletonBeanRegistry;
 
 /**
  * 抽象工厂：

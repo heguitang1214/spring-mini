@@ -1,7 +1,7 @@
-package com.tang.spring.frame.registry;
+package com.tang.spring.frame.ioc.registry;
 
 
-import com.tang.spring.frame.config.BeanDefinition;
+import com.tang.spring.frame.ioc.config.BeanDefinition;
 
 /**
  * bean定义的注册：

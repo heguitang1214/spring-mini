@@ -1,4 +1,4 @@
-package com.tang.spring.frame.factory;
+package com.tang.spring.frame.ioc.factory;
 
 /**
  * 生成bean的工厂，是个顶级接口

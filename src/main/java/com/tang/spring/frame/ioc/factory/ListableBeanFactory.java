@@ -1,4 +1,4 @@
-package com.tang.spring.frame.factory;
+package com.tang.spring.frame.ioc.factory;
 
 import java.util.List;
 

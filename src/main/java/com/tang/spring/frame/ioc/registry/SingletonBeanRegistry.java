@@ -1,4 +1,4 @@
-package com.tang.spring.frame.registry;
+package com.tang.spring.frame.ioc.registry;
 
 /**
  * 1、实现类封装了spring容器创建出来的所有的单例Bean的集合

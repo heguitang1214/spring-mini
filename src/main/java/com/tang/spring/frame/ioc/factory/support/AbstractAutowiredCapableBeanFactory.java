@@ -1,9 +1,9 @@
-package com.tang.spring.frame.factory.support;
+package com.tang.spring.frame.ioc.factory.support;
 
 
-import com.tang.spring.frame.config.BeanDefinition;
-import com.tang.spring.frame.config.PropertyValue;
-import com.tang.spring.frame.resolver.BeanDefinitionValueResolver;
+import com.tang.spring.frame.ioc.config.BeanDefinition;
+import com.tang.spring.frame.ioc.config.PropertyValue;
+import com.tang.spring.frame.ioc.resolver.BeanDefinitionValueResolver;
 import com.tang.spring.frame.utils.ReflectUtils;
 
 import java.util.List;

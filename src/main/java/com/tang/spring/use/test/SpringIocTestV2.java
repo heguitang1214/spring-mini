@@ -1,10 +1,10 @@
 package com.tang.spring.use.test;
 
 
-import com.tang.spring.frame.factory.support.DefaultListableBeanFactory;
-import com.tang.spring.frame.reader.XmlBeanDefinitionReader;
-import com.tang.spring.frame.resource.ClasspathResource;
-import com.tang.spring.frame.resource.Resource;
+import com.tang.spring.frame.ioc.factory.support.DefaultListableBeanFactory;
+import com.tang.spring.frame.ioc.reader.XmlBeanDefinitionReader;
+import com.tang.spring.frame.ioc.resource.ClasspathResource;
+import com.tang.spring.frame.ioc.resource.Resource;
 import com.tang.spring.use.po.User;
 import com.tang.spring.use.service.UserService;
 import org.junit.Before;
@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * 使用面向对象思维和配置文件的方式去实现容器化管理Bean
  */
-public class TestSpringV2 {
+public class SpringIocTestV2 {
 
     private DefaultListableBeanFactory beanFactory;
 

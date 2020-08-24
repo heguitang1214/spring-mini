@@ -1,10 +1,10 @@
 package com.tang.spring.use.test;
 
 
-import com.tang.spring.frame.config.BeanDefinition;
-import com.tang.spring.frame.config.PropertyValue;
-import com.tang.spring.frame.config.RuntimeBeanReference;
-import com.tang.spring.frame.config.TypedStringValue;
+import com.tang.spring.frame.ioc.config.BeanDefinition;
+import com.tang.spring.frame.ioc.config.PropertyValue;
+import com.tang.spring.frame.ioc.config.RuntimeBeanReference;
+import com.tang.spring.frame.ioc.config.TypedStringValue;
 import com.tang.spring.use.po.User;
 import com.tang.spring.use.service.UserService;
 import org.junit.Before;
@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * 使用面向过程思维和配置文件的方式去实现容器化管理Bean
  */
-public class TestSpringV1 {
+public class SpringIocTestV1 {
 
     /**
      * 存储单例Bean实例的Map容器

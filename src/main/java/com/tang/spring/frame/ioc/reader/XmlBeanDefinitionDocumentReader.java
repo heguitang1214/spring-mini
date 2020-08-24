@@ -1,7 +1,7 @@
-package com.tang.spring.frame.reader;
+package com.tang.spring.frame.ioc.reader;
 
-import com.tang.spring.frame.config.*;
-import com.tang.spring.frame.registry.BeanDefinitionRegistry;
+import com.tang.spring.frame.ioc.config.*;
+import com.tang.spring.frame.ioc.registry.BeanDefinitionRegistry;
 import com.tang.spring.frame.utils.ReflectUtils;
 import org.dom4j.Element;
 

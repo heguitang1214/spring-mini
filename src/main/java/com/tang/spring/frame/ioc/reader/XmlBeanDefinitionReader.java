@@ -1,6 +1,6 @@
-package com.tang.spring.frame.reader;
+package com.tang.spring.frame.ioc.reader;
 
-import com.tang.spring.frame.registry.BeanDefinitionRegistry;
+import com.tang.spring.frame.ioc.registry.BeanDefinitionRegistry;
 import com.tang.spring.frame.utils.DocumentUtils;
 import org.dom4j.Document;
 

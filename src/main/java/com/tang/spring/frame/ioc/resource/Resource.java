@@ -1,4 +1,4 @@
-package com.tang.spring.frame.resource;
+package com.tang.spring.frame.ioc.resource;
 
 import java.io.InputStream;
 
