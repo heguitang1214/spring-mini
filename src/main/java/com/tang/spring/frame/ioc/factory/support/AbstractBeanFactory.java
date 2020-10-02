@@ -41,9 +41,19 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
         return singletonObject;
     }
 
-    // 需要延迟到DefaultListableBeanFactory去实现
+    /**
+     * 需要延迟到DefaultListableBeanFactory去实现
+     *
+     * @param beanName bean 的名字
+     * @return bean 的定义
+     */
     protected abstract BeanDefinition getBeanDefinition(String beanName);
 
-    // 需要延迟到AbstractAutowiredCapableBeanFactory去实现
+    /**
+     * 需要延迟到AbstractAutowiredCapableBeanFactory去实现
+     *
+     * @param bd bean的定义
+     * @return 创建的一个bean
+     */
     protected abstract Object createBean(BeanDefinition bd);
 }

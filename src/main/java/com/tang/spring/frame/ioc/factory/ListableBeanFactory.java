@@ -8,6 +8,7 @@ import java.util.List;
  * @author heguitang
  */
 public interface ListableBeanFactory extends BeanFactory {
+
     /**
      * 可以根据指定类型回去它或者它实现类的对象
      *
@@ -15,4 +16,5 @@ public interface ListableBeanFactory extends BeanFactory {
      * @return bean集合
      */
     List<Object> getBeansByType(Class type);
+
 }

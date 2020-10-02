@@ -27,7 +27,7 @@ public class UserDaoImpl implements UserDao {
 
     // 初始化方法
     public void init() {
-        System.out.println("初始化方法被调用");
+        System.out.println("UserDaoImpl 初始化方法被调用......");
     }
 
     @Override
@@ -54,7 +54,7 @@ public class UserDaoImpl implements UserDao {
 
             // 遍历查询结果集
             List<User> results = new ArrayList<User>();
-            User result = null;
+            User result;
             Class<?> clazz = User.class;
             while (rs.next()) {
                 // 遍历一行数据，则创建一个User对象

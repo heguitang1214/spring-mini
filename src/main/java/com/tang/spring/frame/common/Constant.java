@@ -1,4 +1,4 @@
-package com.tang.spring.frame.ioc.config;
+package com.tang.spring.frame.common;
 
 /**
  * 常量表

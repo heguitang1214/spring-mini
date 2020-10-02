@@ -36,13 +36,19 @@ public class BeanDefinition {
      */
     private String beanName;
 
-
+    /**
+     * 初始化方法
+     */
     private String initMethod;
 
-    // 该信息是默认的配置，如果不配置就默认是singleton
+    /**
+     * 该信息是默认的配置，如果不配置就默认是singleton
+     */
     private String scope;
+
     /**
      * bean中的属性信息
+     * <property name="dataSource" ref="dataSource"></property>
      */
     private List<PropertyValue> propertyValues = new ArrayList<>();
 

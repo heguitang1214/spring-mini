@@ -1,5 +1,6 @@
 package com.tang.spring.frame.ioc.reader;
 
+import com.tang.spring.frame.common.Constant;
 import com.tang.spring.frame.ioc.config.*;
 import com.tang.spring.frame.ioc.registry.BeanDefinitionRegistry;
 import com.tang.spring.frame.utils.ReflectUtils;
