@@ -34,7 +34,7 @@ public class SpringIocTestV1 {
 
     @Before
     public void beforse() {
-        // TODO XML解析spring的配置文件
+        // TODO XML解析spring的配置文件 参照SpringIocTestV2
         // 解析后，会把bean的信息放在类BeanDefinition中，也就是填充 beanDefinitions
     }
 
@@ -47,7 +47,7 @@ public class SpringIocTestV1 {
 
         //实现用户查询功能
         Map<String, Object> map = new HashMap<>();
-        map.put("username", "千年老亚瑟");
+        map.put("username", "唐家三少");
 
         List<User> users = userService.queryUsers(map);
         System.out.println(users);
